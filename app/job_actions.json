@@ -1,0 +1,6 @@
+{
+    "View": "jobs/view",
+    "Update": "jobs/update",
+    "Delete": "jobs/delete"
+
+}

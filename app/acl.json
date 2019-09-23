@@ -1,0 +1,33 @@
+{
+	"Guest": {
+		"denied": {},
+		"Dashboard": ["index"],
+		"Restricted": ["*"]
+	},
+
+	"LoggedIn": {
+		"denied": {
+			"Dashboard": ["index"]
+		},
+		"Dashboard": ["*"]
+	},
+	"ADMIN": {
+		"Jobs": ["*"],
+		"Admin": ["*"],
+		"denied": {}
+	},
+	"USER": {
+		"Jobs": ["*"],
+		"denied": {
+			"Admin": ["*"]
+		}
+	},
+
+	"BANNED": {
+		"denied": {
+			"Jobs": ["*"],
+			"Admin": ["*"],
+			"Dashboard": ["*"]
+		}
+	}
+}

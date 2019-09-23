@@ -1,0 +1,6 @@
+{
+    "Admin": {
+        "New User": "admin/create",
+        "Manage Users": "admin/manage"
+    }
+}

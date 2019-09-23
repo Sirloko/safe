@@ -1,0 +1,13 @@
+{
+
+	"Docs": {
+		"My Docs": "jobs",
+		"Create Docs": "jobs/upload",
+		"Shared Docs": "jobs/shared"
+	},
+
+
+
+	"Login": "dashboard/index",
+	"Logout": "dashboard/logout"
+}
