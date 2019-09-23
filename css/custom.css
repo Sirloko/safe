@@ -1,0 +1,61 @@
+.red {
+    color: red;
+}
+
+.form-errors {
+    border-radius: 1em;
+    margin: 10px 25px 45px 25px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.6);
+}
+
+.form-errors ul.has-errors {
+    padding: 15px;
+    border: 1px solid #a94442;
+    border-radius: 8px;
+}
+
+.form-errors li {
+    list-style: none;
+    font-size: 16px;
+}
+
+.bw {
+    max-width: 10em;
+    word-wrap: break-word;
+    white-space: normal;
+}
+
+span.tt {
+    border-radius: 8px;
+    border-bottom-right-radius: 0;
+    margin: 0.1em;
+    max-width: 15em;
+    word-wrap: break-word;
+    white-space: normal;
+    background-color: #555580;
+}
+
+span.t1 {
+    border-radius: 8px;
+    border-bottom-left-radius: 0;
+    margin: 0.1em;
+    max-width: 15em;
+    word-wrap: break-word;
+    white-space: normal;
+}
+
+.caption {
+    text-align: center;
+    position: absolute;
+    padding: 10px;
+    font-size: 1.5em;
+    text-transform: capitalize;
+    border-top-right-radius: 1em;
+    border-bottom-left-radius: 1em;
+    color: rgb(237, 237, 245);
+    background-color: rgba(45, 35, 106, 0.77);
+}
+
+.caption:hover {
+    color: black;
+}
